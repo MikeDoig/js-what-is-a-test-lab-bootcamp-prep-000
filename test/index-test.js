@@ -10,7 +10,7 @@ describe('what-is-a-test', () => {
 
   describe('Height', () => {
     it('is equal to 73', () => {
-      expect(index.height).toBeEqualTo(73)
+      expect(index.height).toEqual(73)
     })
   })
 
